@@ -1,0 +1,14 @@
+<mat-card class="page-title" *ngIf="thesisItems !== undefined && thesisItems !== [] && thesisItems.length > 0">
+  <mat-card-title>
+    <mat-icon>menu_book</mat-icon>
+    {{l10n.publications.title_theses}}
+  </mat-card-title>
+</mat-card>
+<app-cv-item *ngFor="let item of thesisItems" [cvItem]="item"></app-cv-item>
+<mat-card class="page-title" *ngIf="publicationItems !== undefined && publicationItems !== [] && publicationItems.length > 0">
+  <mat-card-title>
+    <mat-icon>subject</mat-icon>
+    {{l10n.publications.title_publications}}
+  </mat-card-title>
+</mat-card>
+<app-cv-item *ngFor="let item of publicationItems" [cvItem]="item"></app-cv-item>
