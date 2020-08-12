@@ -110,7 +110,7 @@ export const PROJECTS: CvItem[] = [
     end: '',
     description: 'This project was created for the purpose of having a basic online-CV.',
     tags: ['Angular', 'MaterialDesign', 'GitHub', 'CSS', 'TypeScript', 'JetBrains WebStorm', 'Firebase', 'jsPDF', 'npm'],
-    link: '',
+    link: 'https://angularonlinecv.web.app',
     thumbnail: '../AngularCV.svg',
   },
 ];

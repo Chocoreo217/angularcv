@@ -111,7 +111,7 @@ export const PROJECTS: CvItem[] = [
     end: '',
     description: 'A projekt célja az volt, hogy egy online önéletrajzot készítsek saját célra.',
     tags: ['Angular', 'MaterialDesign', 'GitHub', 'CSS', 'TypeScript', 'JetBrains WebStorm', 'Firebase', 'jsPDF', 'npm'],
-    link: '',
+    link: 'https://angularonlinecv.web.app',
     thumbnail: '../AngularCV.svg',
   },
 ];
