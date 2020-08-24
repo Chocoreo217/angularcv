@@ -5,9 +5,7 @@ export const GENERAL = {
   name: 'Elvira Erdei',
   position: 'Software developer',
   description: `I started my career in IT as a software engineer during my studies of Computer Science at University of Szeged. After completing my bachelor's thesis, I became a junior software developer and tester at METRIX Hungary Kft. doing frontend development.
-
 I am looking for new opportunities which include modern, progressive technologies in a collaborative working environment. Learning new things and trying out new stuff are part of my motivation. New roles are of interest if I can accompany the software end to end - from planning, implementation, deployment towards monitoring. The constant feedback of my work and the opportunity of continuous learning and experimentation define a proper working environment for me. Job offers outside of Szeged are not relevant to me.
-
 This website is designed to be a simple, self-hosted online-CV, based on Angular. To find out more about the project, please click on the AngularCV logo in the bottom right corner.`,
 };
 // tslint:enable:max-line-length
@@ -33,7 +31,7 @@ export const CERTIFICATES: CvItem[] = [
     title: 'Computer Scientist',
     subtitle: 'University of Szeged | Faculty of Science and Informatics',
     begin: '',
-    end: '2019-10-03',
+    end: '2020-07-05',
     description: '',
     tags: [],
     attachment: 'computerscientist.jpg',
@@ -43,7 +41,7 @@ export const CERTIFICATES: CvItem[] = [
     title: 'Astronomer',
     subtitle: 'University of Szeged | Faculty of Science and Informatics',
     begin: '',
-    end: '2019-05-27',
+    end: '2016-07-03',
     description: '',
     tags: [],
     attachment: 'astronomer.jpg',
@@ -53,7 +51,7 @@ export const CERTIFICATES: CvItem[] = [
     title: 'Physicist',
     subtitle: 'University of Szeged | Faculty of Science and Informatics',
     begin: '',
-    end: '2019-05-20',
+    end: '2014-07-01',
     description: '',
     tags: [],
     attachment: 'physicist.jpg',
@@ -105,13 +103,43 @@ export const LANGUAGES = [
 export const PROJECTS: CvItem[] = [
   {
     title: 'AngularCV',
-    subtitle: 'A simple self-hosted online-CV',
+    subtitle: 'A simple self-hosted online-CV.',
     begin: '2020-06',
     end: '',
     description: 'This project was created for the purpose of having a basic online-CV.',
-    tags: ['Angular', 'MaterialDesign', 'GitHub', 'CSS', 'TypeScript', 'JetBrains WebStorm', 'Firebase', 'jsPDF', 'npm'],
-    link: 'https://angularonlinecv.web.app',
+    tags: ['Angular', 'MaterialDesign', 'GitHub', 'CSS3', 'TypeScript', 'JetBrains WebStorm', 'Firebase', 'jsPDF', 'npm'],
+    link: '',
     thumbnail: '../AngularCV.svg',
+  },
+  {
+    title: 'Personal resume site',
+    subtitle: 'A fluid single-page personal portfolio site showcasing my skills as a front end web developer.',
+    begin: '2020-07',
+    end: '',
+    description: 'I would have liked an eye-catching, aesthetically arranged page about myself.',
+    tags: ['HTML5', 'CSS3', 'Javascript', 'Github', 'Firebase', 'JetBrains WebStorm'],
+    link: 'https://viradev.web.app/',
+    thumbnail: '../portitem1.jpeg',
+  },
+  {
+    title: 'Memory game app',
+    subtitle: 'A simple memory game with cute kitties.',
+    begin: '2019-04',
+    end: '2019-5',
+    description: 'This was my first Android App in Java with Android Studio.',
+    tags: ['Java', 'Android Studio', 'Github'],
+    link: 'https://github.com/Chocoreo217/memorygame',
+    thumbnail: '../portitem3_1.png',
+  },
+  {
+    title: 'Softpaws - Dogshelter site',
+    subtitle: 'Webpage for an imaginary Softpaws dog shelter in PHP.',
+    begin: '2018-03',
+    end: '2018-5',
+    description: 'This was a project where I started learning the basics of HTML, CSS and PHP.',
+    tags: ['HTML5', 'CSS3', 'PHP', 'Github'],
+    link: 'https://github.com/Chocoreo217/softpaws-dogshelter',
+    thumbnail: '../portitem4.JPG',
   },
 ];
 

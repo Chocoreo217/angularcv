@@ -5,9 +5,7 @@ export const GENERAL = {
   name: 'Erdei Elvira',
   position: 'Szoftverfejlesztő',
   description: `Informatikai karrieremet szoftverfejlesztő informatikusként kezdtem, a Szegedi Tudományegyetem informatikai szakán. A diplomamunkám elvégzése után kezdő szoftverfejlesztővé és tesztelővé váltam a METRIX Hungary Kft.-nél, ahol frontend fejlesztést folytatok.
-
 Új lehetőségeket keresek, amelyek magukba foglalják a modern és progresszív technológiákat egy együttműködésen alapuló munkakörnyezetben. Az új dolgok tanulása és új dolgok kipróbálása része a motivációmnak. Érdeklődésemnek egyik új iránya, ha képes lehetnék a szoftvert végigkísérni - a tervezéstől, a megvalósítástól, a telepítéstől a megfigyelésig. Az állandó visszajelzések a munkámról, valamint a folyamatos tanulás és tapasztalatszerzés határozza meg számomra a megfelelő munkakörnyezetet. Szegeden kívüli állásajánlatok nem relevánsak számomra.
-
 Ezt a weboldalt úgy terveztem, hogy egy egyszerű, saját üzemeltetésű online önéletrajz legyen, amely Angular alapokon nyugszik. Ha többet szeretne megtudni a projektről, kattintson a jobb alsó sarokban található AngularCV logóra.`,
 };
 // tslint:enable:max-line-length
@@ -34,7 +32,7 @@ export const CERTIFICATES: CvItem[] = [
     title: 'Programtervező informatikus',
     subtitle: 'Szegedi Tudományegyetem | Természettudományi és Informatikai Kar',
     begin: '',
-    end: '2019-10-03',
+    end: '2020-07-05',
     description: '',
     tags: [],
     attachment: 'informatikus.jpg',
@@ -44,7 +42,7 @@ export const CERTIFICATES: CvItem[] = [
     title: 'Okleveles csillagász',
     subtitle: 'Szegedi Tudományegyetem | Természettudományi és Informatikai Kar',
     begin: '',
-    end: '2019-05-27',
+    end: '2016-07-03',
     description: '',
     tags: [],
     attachment: 'csillagasz.jpg',
@@ -54,7 +52,7 @@ export const CERTIFICATES: CvItem[] = [
     title: 'Fizikus',
     subtitle: 'Szegedi Tudományegyetem | Természettudományi és Informatikai Kar',
     begin: '',
-    end: '2019-05-20',
+    end: '2014-07-01',
     description: '',
     tags: [],
     attachment: 'fizikus.jpg',
@@ -110,9 +108,39 @@ export const PROJECTS: CvItem[] = [
     begin: '2020-06',
     end: '',
     description: 'A projekt célja az volt, hogy egy online önéletrajzot készítsek saját célra.',
-    tags: ['Angular', 'MaterialDesign', 'GitHub', 'CSS', 'TypeScript', 'JetBrains WebStorm', 'Firebase', 'jsPDF', 'npm'],
-    link: 'https://angularonlinecv.web.app',
+    tags: ['Angular', 'MaterialDesign', 'GitHub', 'CSS3', 'TypeScript', 'JetBrains WebStorm', 'Firebase', 'jsPDF', 'npm'],
+    link: '',
     thumbnail: '../AngularCV.svg',
+  },
+  {
+    title: 'Online portfólió',
+    subtitle: 'Egy egyoldalas személyes portfólió, amely szemlélteti, hogy milyen webfejlesztő ismeretekkel rendelkezem.',
+    begin: '2020-07',
+    end: '',
+    description: 'Szerettem volna egy szemnek kellemes, esztétikailag rendezett oldalt magamról.',
+    tags: ['HTML5', 'CSS3', 'Javascript', 'Github', 'Firebase', 'JetBrains WebStorm'],
+    link: 'https://viradev.web.app/',
+    thumbnail: '../portitem1.jpeg',
+  },
+  {
+    title: 'Memória játék app',
+    subtitle: 'Egy egyszerű memória játék aranyos cicákkal.',
+    begin: '2019-04',
+    end: '2019-5',
+    description: 'Ez volt az első androidos appom, amit Java nyelven Android Studio-ban írtam.',
+    tags: ['Java', 'Android Studio', 'Github'],
+    link: 'https://github.com/Chocoreo217/memorygame',
+    thumbnail: '../portitem3_1.png',
+  },
+  {
+    title: 'Softpaws menhely oldala',
+    subtitle: 'Egy képzeletbeli menhely oldala PHP-ban írva.',
+    begin: '2018-03',
+    end: '2018-5',
+    description: 'Ez volt az a projekt, amelyen megtanulhattam a HTML, CSS és PHP alapjait.',
+    tags: ['HTML5', 'CSS3', 'PHP', 'Github'],
+    link: 'https://github.com/Chocoreo217/softpaws-dogshelter',
+    thumbnail: '../portitem4.JPG',
   },
 ];
 
@@ -122,7 +150,7 @@ export const CONTACT = {
   mail: 'elvira.erdei@gmail.com',
   skype: '', // just the account name
   linkedin: 'https://www.linkedin.com/in/elvira-erdei-5247301b1/', // full url
-  github: 'https://github.com/Chocoreo217', // full url
+  github: 'https://github.com/StarLight217', // full url
   facebook: 'https://www.facebook.com/elvira.erdei', // full url
   /*other: [
     { title: 'Medium', icon: 'icon-medium', link: '' },
